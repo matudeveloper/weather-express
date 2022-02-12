@@ -1,0 +1,24 @@
+{
+  "name": "weather-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/matudeveloper/weather-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matudeveloper/weather-express/issues"
+  },
+  "homepage": "https://github.com/matudeveloper/weather-express#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "path": "^0.12.7"
+  }
+}
