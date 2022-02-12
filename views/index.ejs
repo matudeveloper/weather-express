@@ -1,1 +1,17 @@
-<h1>ejs template</h1>
+<%- include('header'); %>
+<div class="mx-3 my-3 border text-center" style="width: 120px; height: 150px" id="weather">
+    <p id="description"><%= description %></p>
+    <h1 id="temp"><%= temp %></h1>
+    <p id="location"><%= city %></p>
+</div>
+<div class="mx-3 my-3">
+    <form id="change-city" method="post" action="/">
+        <label for="city-name">Enter Different City:</label>
+        <br>
+        <input type="text" id="city-name" name="cityname">
+        <br>
+        <button id="button" type="submit" class="btn btn-light" value="Save changes">Save changes</button>
+    </form>
+</div>
+</div>
+<%- include('footer'); %>
